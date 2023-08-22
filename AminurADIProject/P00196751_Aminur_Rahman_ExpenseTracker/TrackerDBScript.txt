@@ -1,0 +1,13 @@
+﻿CREATE TABLE tblUser
+(
+	[uId] INT IDENTITY (1,1) NOT NULL PRIMARY KEY , 
+    [UserName] VARCHAR(50) NULL, 
+    [Password] VARCHAR(50) NULL, 
+    [FullName] VARCHAR(50) NULL, 
+    [UserType] VARCHAR(50) NULL
+);
+GO
+
+INSERT INTO tblUser VALUES('Admin','123','Admin','Admin')
+GO
+
